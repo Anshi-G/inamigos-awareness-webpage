@@ -714,3 +714,80 @@ footer span {
     padding: 25px;
   }
 }
+
+/* --- Dark Mode Configuration Settings --- */
+body.dark-theme {
+  --light-bg: #0f172a; /* Slate 900 background */
+  --card-bg: #1e293b; /* Slate 800 cards */
+  --text-main: #f1f5f9; /* Light text */
+  --text-muted: #94a3b8; /* Muted silver text */
+}
+body.dark-theme header {
+  background: rgba(15, 23, 42, 0.85);
+  border-bottom-color: rgba(51, 65, 85, 0.5);
+}
+body.dark-theme .logo {
+  color: #ffffff;
+}
+body.dark-theme .nav-link {
+  color: #cbd5e1;
+}
+body.dark-theme .modern-form,
+body.dark-theme .progress-card,
+body.dark-theme .spotlight-card {
+  background: #1e293b;
+  border-color: #334155;
+}
+body.dark-theme .accordion-item {
+  background: #1e293b;
+  border-color: #334155;
+}
+body.dark-theme .accordion-header {
+  color: #ffffff;
+}
+
+/* Theme Floating Button Style */
+.theme-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 2000;
+  background: var(--dark);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+.theme-btn:hover {
+  transform: scale(1.05);
+}
+
+/* --- Back to Top Arrow Design --- */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 2000;
+  background: var(--primary);
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}

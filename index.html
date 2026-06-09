@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+      🌓 Switch Theme
+    </button>
     <!-- Top Announcement Bar -->
     <div class="announcement-bar">
       <span
@@ -398,6 +401,25 @@
 
         form.reset();
       });
+
+      // 5. Dynamic Theme Toggle Logic
+      const themeToggle = document.getElementById("themeToggle");
+      themeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-theme");
+      });
+
+      // 6. SCROLL MONITORING LOGIC (Adds the fade-in effect to Back-to-Top arrow)
+      const backToTop = document.getElementById("backToTop");
+      window.addEventListener("scroll", () => {
+        // If user scrolls down more than 400 pixels, show the button
+        if (window.scrollY > 400) {
+          backToTop.classList.add("show");
+        } else {
+          // Otherwise hide it
+          backToTop.classList.remove("show");
+        }
+      });
     </script>
+    <a href="#" class="back-to-top" id="backToTop">▲</a>
   </body>
 </html>
