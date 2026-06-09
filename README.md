@@ -62,5 +62,5 @@ Follow these quick commands to spin up the production environment locally on you
 
 ```bash
 git clone [https://github.com/Anshi-G/inamigos-awareness-webpage.git](https://github.com/Anshi-G/inamigos-awareness-webpage.git)
-cd your-repository-name
+cd inamigos-awareness-webpage
 ```
