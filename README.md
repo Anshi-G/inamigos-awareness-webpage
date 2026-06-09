@@ -1,4 +1,11 @@
-# 🌐 InAmigos Foundation — Creative Awareness Portal
+# 🌐 InAmigos Foundation — Awareness Portal
+
+### 🔗 Project Deployment Links
+
+- **💻 Source Code Repository (Link 1):** [https://github.com/Anshi-G/inamigos-awareness-webpage](https://github.com/Anshi-G/inamigos-awareness-webpage)
+- **🌐 Active Live Website (Link 2):** [https://Anshi-G.github.io/inamigos-awareness-webpage/](https://Anshi-G.github.io/inamigos-awareness-webpage/)
+
+---
 
 Welcome to the official repository for the **InAmigos Foundation Awareness Webpage**. This is a modern, single-page website designed to spread awareness about our NGO's mission, showcase our ongoing community projects, and make it easy for youth to join us as volunteers.
 
