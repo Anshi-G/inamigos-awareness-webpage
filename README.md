@@ -2,8 +2,10 @@
 
 ### 🔗 Project Deployment Links
 
-- **💻 Source Code Repository (Link 1):** [https://github.com/Anshi-G/inamigos-awareness-webpage](https://github.com/Anshi-G/inamigos-awareness-webpage)
-- **🌐 Active Live Website (Link 2):** [https://Anshi-G.github.io/inamigos-awareness-webpage/](https://Anshi-G.github.io/inamigos-awareness-webpage/)
+- **💻 Source Code Repository (Link 1):**
+ [https://github.com/Anshi-G/inamigos-awareness-webpage](https://github.com/Anshi-G/inamigos-awareness-webpage)
+- **🌐 Active Live Website (Link 2):**
+ [https://Anshi-G.github.io/inamigos-awareness-webpage/](https://Anshi-G.github.io/inamigos-awareness-webpage/)
 
 ---
 
@@ -14,9 +16,13 @@ Welcome to the official repository for the **InAmigos Foundation Awareness Webpa
 ## ✨ Key Features of the Website
 
 - **📸 Automatic Background Slider:** The main header dynamically rotates through beautiful photos of our volunteers in action using smooth animations.
+
 - **🌓 Smart Dark Mode Toggle:** A floating button lets visitors instantly switch between a bright clean look and a sleek dark theme.
+
 - **📊 Interactive Impact Meter:** Visitors can click a simulation button to see how individual social media shares directly help expand our NGO resource goals in real-time.
+
 - **📱 Fully Responsive Design:** The layout automatically adjusts to look perfect on mobile phones, tablets, laptops, and desktop screens.
+
 - **💬 Smooth FAQ Accordion:** Clean, clickable dropdowns that neatly answer common questions about our programs and certificates.
 
 ---
