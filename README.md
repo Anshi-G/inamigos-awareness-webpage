@@ -1,66 +1,53 @@
-# 🌐 InAmigos Foundation — High-Fidelity Awareness Portal
+# 🌐 InAmigos Foundation — Creative Awareness Portal
 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-flat)](https://github.com/)
-[![Built With HTML5](https://img.shields.io/badge/Built%20With-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![Styled With CSS3](https://img.shields.io/badge/Styled%20With-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Powered By JS](https://img.shields.io/badge/Engine-Vanilla%20JS-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-A highly responsive, production-ready single-page awareness web application engineered to showcase community welfare projects. This platform bridges semantic markup with modern glassmorphic interface patterns, fluid client-side interactive calculators, and cross-fading visual media elements.
+Welcome to the official repository for the **InAmigos Foundation Awareness Webpage**. This is a modern, single-page website designed to spread awareness about our NGO's mission, showcase our ongoing community projects, and make it easy for youth to join us as volunteers.
 
 ---
 
-## 🎯 Core Engineering Features
+## ✨ Key Features of the Website
 
-### ⚡ 1. Dynamic Background Cross-Fade Slider
-
-The website features an automated background hero slideshow powered completely by a non-blocking **CSS3 Keyframe Engine**. It eliminates heavy script-loading overhead while providing beautiful frame transitions for community visuals.
-
-### 🌓 2. Global State Variable Theme Toggle
-
-Incorporates a floating theme management switch allowing live shifts between light and dark viewport spectrums. This is managed instantly by toggling a client-side root class that maps synchronized CSS color variables.
-
-### 📊 3. Interactive Resource Progress Meter
-
-Features an integrated contribution engine. Users can interact directly with the client-side UI to simulate metric expansions, triggering real-time calculations that update progress bar fills and complete responsive metadata logs.
-
-### 📱 4. Fluid Fluid Component Adaptability
-
-Designed from a mobile-first perspective utilizing robust **CSS Flexbox** and **Grid Configurations**. Elements dynamically recalculate layouts across smartphones, tablets, and wide desktop displays without layout breaking.
+- **📸 Automatic Background Slider:** The main header dynamically rotates through beautiful photos of our volunteers in action using smooth animations.
+- **🌓 Smart Dark Mode Toggle:** A floating button lets visitors instantly switch between a bright clean look and a sleek dark theme.
+- **📊 Interactive Impact Meter:** Visitors can click a simulation button to see how individual social media shares directly help expand our NGO resource goals in real-time.
+- **📱 Fully Responsive Design:** The layout automatically adjusts to look perfect on mobile phones, tablets, laptops, and desktop screens.
+- **💬 Smooth FAQ Accordion:** Clean, clickable dropdowns that neatly answer common questions about our programs and certificates.
 
 ---
 
-## 🏗️ Architecture & Component Mapping
+## 🛠️ Official NGO Initiatives Showcased
 
-The application follows clean, semantic separation patterns across the single-page document layout:
+The website highlights the four core operational pillars of the **InAmigos Foundation**:
 
-| Section Layer      | Core Technology Applied          | System Function                                                                      |
-| :----------------- | :------------------------------- | :----------------------------------------------------------------------------------- |
-| **Header / Nav**   | Flexbox Layout / Blur Filter     | Tracks viewing paths, adapts via mobile hamburger overlay switches.                  |
-| **Hero Stage**     | CSS Keyframes / Linear Gradients | Runs automated asset slider backdrop loops under dark-tint filters.                  |
-| **Impact Tracker** | Native JavaScript Mutation Logic | Listens for client interaction click feeds to increment operational metrics.         |
-| **Campaign Grid**  | CSS Adaptive Grid Auto-Fit       | Renders responsive project modules symmetrically across variable aspect ratios.      |
-| **FAQ Accordion**  | JS `scrollHeight` Calculation    | Provides smooth, animated panel expansion collapses upon header selection.           |
-| **Portal Gateway** | JS Form Event Interception       | Validates data entries instantly and generates custom on-screen confirmation states. |
+| Project Name                | Focus Area  | What It Does                                                                                     |
+| :-------------------------- | :---------- | :----------------------------------------------------------------------------------------------- |
+| **📚 Project BachpanShala** | Education   | Teaches basic literacy, digital skills, and creative arts to underprivileged children.           |
+| **🌱 Project Prakriti**     | Environment | Fights climate change by planting native tree saplings and running zero-plastic workshops.       |
+| **🍲 Project Seva**         | Zero Hunger | Distributes fresh, nutritious meals and clothing to under-resourced families and local laborers. |
+| **🏥 Project Swasthya**     | Healthcare  | Provides health consultations, mental well-being advice, and distributes hygiene kits.           |
 
 ---
 
-## 🎨 System Color Palettes
+## 🎨 Design Colors & Aesthetics
 
-The interface runs on a carefully calibrated, high-contrast digital token setup:
+The website uses a carefully picked color palette to represent life, growth, and trust:
 
-- **Primary Emerald Branding Accent:** `#0284c7` $\rightarrow$ `#10b981` (Linear System)
-- **Warm Canvas Backdrop:** `#f8fafc` (Light Version) | `#0f172a` (Slate Dark Override)
-- **Text Primary Core:** `#334155` (Slate Neutral Clear Contrast)
+- **Primary Theme:** Emerald Green (`#10b981`) and Sky Blue (`#0284c7`) gradients representing social development.
+- **Accent Tone:** Vivid Amber Gold (`#f59e0b`) used for high-importance buttons and active badges.
+- **Backgrounds:** Clean off-white (`#f8fafc`) for standard mode, switching to a deep slate blue (`#0f172a`) for dark mode.
 
 ---
 
-## 🚀 Local Deployment Instructions
+## 📂 Project Directory Structure
 
-Follow these quick commands to spin up the production environment locally on your workstation:
+This repository is organized with a clean and minimal file structure:
 
-### 1. Replicate the Directory Locally
-
-```bash
-git clone [https://github.com/Anshi-G/inamigos-awareness-webpage.git](https://github.com/Anshi-G/inamigos-awareness-webpage.git)
-cd inamigos-awareness-webpage
+```text
+├── index.html        # Core website layout, content text, and interactive scripts
+├── style.css         # Complete styling rules, color variables, and responsive grids
+└── images/           # Folder containing your real NGO drive photos
+    ├── volunteers.jpg
+    ├── shiksha.jpg
+    ├── green.jpg
+    ├── food.jpg
+    └── swasthya.jpg
 ```
